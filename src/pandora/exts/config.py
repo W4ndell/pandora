@@ -3,7 +3,7 @@
 from os import getenv
 from os.path import join
 
-from appdirs import user_config_dir
+from appdirs import c
 
 USER_CONFIG_DIR = getenv('USER_CONFIG_DIR', user_config_dir('Pandora-ChatGPT'))
 DATABASE_URI = getenv('DATABASE_URI',
